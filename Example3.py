@@ -3,20 +3,6 @@
 #Определите самый жаркий и самый холодный 7-дневный промежуток этого периода. Выведите его даты. 
 import random 
 from datetime import datetime, timedelta
-# days = 30
-
-# May = [rn.randint(9,21)  for i in range(days+1)]
-# June = [rn.randint(18,31)  for i in range(days)]
-# July = [rn.randint(17,30)  for i in range(days+1)]
-# August = [rn.randint(18,31)  for i in range(days+1)]
-# September = [rn.randint(8,16)  for i in range(days)]
-# print(f"Year:2022\nTemperature in May:\n{May}")
-# print(f"Temperature in June:\n{June}")
-# print(f"Temperature in July:\n{July}")
-# print(f"Temperature in August:\n{August}")
-# print(f"Temperature in September:\n{September}")
-# for row in temperature:
-#         print(row)
 
 temperature = [0] * 5
 value_sum=0
